@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Classes</title>
+
+</head>
+
+
+
+<body style="font-family: Arial, sans-serif; background-color: #eee; padding: 30px;">
+
+    <nav>
+    <a href="index.html">Homepage</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a href="Classes.html">Class Selection</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a href="Class_Tips.html">Class Tips</a>
+    
+    </nav>
+<!--Your HTML tags will start here-->
+
+ <h1>Choose your Class</h1>
+
+
+  <form style="background-color: #1e1e2f; padding: 20px; border-radius: 10px; max-width: 400px; margin: auto; color: #fff;">
+
+    <label for="class-select" style="display: block; margin-bottom: 8px; font-weight: bold;">
+      Select your Mass Effect class:
+    </label>
+    <select id="class-select" name="class" required
+      style="width: 100%; padding: 8px; border-radius: 5px; border: none; margin-bottom: 20px; background-color: #32475a; color: #fff;">
+
+      <option value="" disabled selected>Select a class</option>
+      <option value="soldier">Soldier</option>
+      <option value="engineer">Engineer</option>
+      <option value="adept">Adept</option>
+      <option value="infiltrator">Infiltrator</option>
+      <option value="sentinel">Sentinel</option>
+      <option value="vanguard">Vanguard</option>
+    </select>
+
+    <fieldset style="border: none; margin-bottom: 20px; padding: 0;">
+      <legend style="font-weight: bold; margin-bottom: 8px;">Experience level:</legend>
+
+      <label style="display: block; margin-bottom: 6px;">
+        <input type="radio" name="experience" value="beginner" required /> Beginner
+      </label>
+      <label style="display: block; margin-bottom: 6px;">
+        <input type="radio" name="experience" value="experienced" /> Experienced
+      </label>
+      <label style="display: block; margin-bottom: 6px;">
+        <input type="radio" name="experience" value="expert" /> Expert
+      </label>
+    </fieldset>
+
+    <label for="comments" style="font-weight: bold; display: block; margin-bottom: 8px;">Comments / Feedback:</label>
+    <textarea id="comments" name="comments" rows="4" placeholder="Your feedback here..."
+      style="width: 100%; background-color: #fffbdd; color: #333; border-radius: 8px; border: 1px solid #ccc; padding: 10px; resize: vertical; margin-bottom: 20px;"></textarea>
+
+    <button type="submit" 
+      style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 6px; cursor: pointer; margin-right: 10px;">
+      Submit
+    </button>
+    <button type="reset" 
+      style="background-color: #f44336; color: white; padding: 10px 15px; border: none; border-radius: 6px; cursor: pointer;">
+      Reset
+    </button>
+
+  </form>
+
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
